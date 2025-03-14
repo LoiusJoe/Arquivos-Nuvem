@@ -1,0 +1,108 @@
+%SPDF-1.0
+1 0 obj
+<< /Type /Catalog
+   /Pages 2 0 R
+   /Outlines 5 0 R
+>>
+endobj
+
+2 0 obj
+<< /Type /Pages
+   /Kids [3 0 R 4 0 R]
+   /Count 2
+>>
+endobj
+
+3 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /Contents 6 0 R
+>>
+endobj
+
+4 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /Contents 7 0 R
+>>
+endobj
+
+5 0 obj
+<< /Type /Outlines
+   /First 8 0 R
+>>
+endobj
+
+6 0 obj
+<< /Length 260 >>
+stream
+BT
+/F1 16 Tf
+100 700 Td
+(Teste de Hierarquia) Tj
+/F1 12 Tf
+0 -40 Td
+(O objeto 8 referencia 9) Tj
+0 -20 Td
+(Esta é uma estrutura de referências cruzadas) Tj
+0 -20 Td
+(que testa a função de extração de caracteres no SimplePDF.) Tj
+0 -20 Td
+(Adicionamos mais texto para que a função possa coletar 200 caracteres) Tj
+0 -20 Td
+(de maneira confiável.) Tj
+ET
+endstream
+endobj
+
+7 0 obj
+<< /Length 260 >>
+stream
+BT
+/F1 16 Tf
+100 700 Td
+(Teste de Referências) Tj
+/F1 12 Tf
+0 -40 Td
+(O objeto 9 referencia 8, formando ciclo) Tj
+0 -20 Td
+(Aqui testamos a extração de texto a partir de objetos cíclicos) Tj
+0 -20 Td
+(para garantir a robustez do programa.) Tj
+ET
+endstream
+endobj
+
+8 0 obj
+<< /Title (Inicio)
+   /Parent 5 0 R
+   /Next 9 0 R
+>>
+endobj
+
+9 0 obj
+<< /Title (Ciclo)
+   /Parent 5 0 R
+   /Next 8 0 R
+>>
+endobj
+
+xref
+0 10
+0000000000 65535 f
+0000000010 00000 n
+0000000070 00000 n
+0000000120 00000 n
+0000000170 00000 n
+0000000220 00000 n
+0000000270 00000 n
+0000000320 00000 n
+0000000370 00000 n
+0000000420 00000 n
+trailer
+<< /Size 10
+   /Root 1 0 R
+>>
+startxref
+480
+%%EOF

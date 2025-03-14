@@ -1,0 +1,61 @@
+%SPDF-1.0
+1 0 obj
+<< /Type /Catalog
+   /Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<< /Type /Pages
+   /Kids [3 0 R]
+   /Count 1
+>>
+endobj
+
+3 0 obj
+<< /Type /Page
+   /Parent 2 0 R
+   /Contents 4 0 R
+>>
+endobj
+
+4 0 obj
+<< /Length 240 >>
+stream
+BT
+/F1 14 Tf
+100 700 Td
+(Valores Teste: ) Tj
+/F1 12 Tf
+0 -20 Td
+(Numero Inteiro: 42) Tj
+0 -20 Td
+(Numero Decimal: 3.14159) Tj
+0 -20 Td
+(Booleano: true) Tj
+0 -20 Td
+(Nome: /Exemplo) Tj
+0 -20 Td
+(Array: [1 2.5 (texto) /Nome]) Tj
+0 -20 Td
+(Este documento tem mais objetos textuais para testes.) Tj
+0 -20 Td
+(Com essa adição, podemos validar corretamente a extração.) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f
+0000000010 00000 n
+0000000050 00000 n
+0000000090 00000 n
+0000000130 00000 n
+trailer
+<< /Size 5
+   /Root 1 0 R
+>>
+startxref
+200
+%%EOF
